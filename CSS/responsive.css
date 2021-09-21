@@ -1,0 +1,123 @@
+.header {
+    padding: 8px 0;
+}
+@media all and (max-width: 1200px) {
+    html{
+        box-sizing: border-box;
+    }
+    .fix-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+    .headerL-logo {
+        padding-left: 15px;
+    }
+    .about {
+        margin-top: 20px;
+    }
+    .blog-left-content{
+        padding-left: 15px;
+    }
+    .blog-right-notification {
+      padding-right: 15px;
+    }
+    .footer{
+        max-width: 100%;
+    }
+    .footer-left {
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .footer-right {
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .btn1{
+        margin-top: 125px !important;
+    }
+}
+@media all and (max-width: 815px) {
+    .blog-left-content {
+        float: none;
+        width: 90%;
+        margin: auto;
+        height: auto;
+        font-size: 35px;
+        overflow-y: none;
+    }
+    .blog-right-notification {
+        float: none;
+        margin: auto;
+        border: 2px solid #ddd;
+        padding: 15px;
+        box-sizing: border-box;
+        width: 70%;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+}
+@media all and (max-width: 648px) {
+    .service-item {
+        padding: 10px 8px;
+        width: 75%;
+        float: none;
+        margin-bottom: 15px !important;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-left {
+        float: none;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .footer-right {
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 0;
+    }
+    .social-menu{
+        text-align: center;
+    }
+}
+@media all and (max-width: 400px) {
+    .fix-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headerR-menu {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        float: none;
+        text-align: center;
+    }
+    .headerL-logo {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-caption h2 {
+        padding: 8px 15px;
+        font-size: 30px;
+    }
+    .banner-caption h1 {
+        padding: 10px 10px;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .about p {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
