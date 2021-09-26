@@ -70,7 +70,7 @@ img{
 /* Banner CSS */
 
 .banner{
-    background: url(images/Gerden.jpg) no-repeat center;
+    background: url(images/Gerden.jpg) no-repeat top center;
     padding: 200px 0px;
     background-size: cover;
     background-attachment: fixed;
